@@ -1,0 +1,43 @@
+.navBar {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nameOfApp a {
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.nameOfUser {
+  font-size: 30px;
+}
+
+.logOut a {
+  font-size: 30px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.noUser ul {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.noUser li {
+  list-style: none;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.noUser li a {
+  text-decoration: none;
+  color: black;
+}
+.logOut small {
+  font-size: 20px;
+}
